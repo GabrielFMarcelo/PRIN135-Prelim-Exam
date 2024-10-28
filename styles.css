@@ -93,3 +93,7 @@ img, video, audio, iframe {
 .items {
     margin-left: 20px;
 }
+
+footer{
+    padding: 10px 20px;
+}
