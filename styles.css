@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 2em;
+}
+
+.head {
+    font-family: "DM Serif Display", serif;
+    font-size: 2em
+}
+
