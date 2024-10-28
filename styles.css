@@ -70,3 +70,26 @@ nav {
     text-align: left;
 }
 
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 96%;
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 20px;
+}
+
+img, video, audio, iframe {
+    width: 100%;
+    align-items: center;
+}
+
+.steps {
+    margin-left: 20px;;
+}
+
+.items {
+    margin-left: 20px;
+}
