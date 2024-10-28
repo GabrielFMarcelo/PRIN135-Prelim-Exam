@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 2em;
+}
+
+.head {
+    font-family: "DM Serif Display", serif;
+    font-size: 2em
+}
+
+body {
+    background-color: beige;
+    padding-bottom: 50px;;
+}
+
+section {
+    padding-left: 350px;
+    padding-top: 30px;
+}
+
+nav {
+    height: 100%;
+    width: 300px;
+    background-color: beige;
+    border-right: 2px solid black;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
+    overflow-x: hidden;
+}
+
+.nav-title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-rows: repeat(1fr, 6);
+    list-style-type: none;
+    padding-top: 50px;
+}
+
+.nav-bar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.nav-bar a:hover {
+    background-color: black;
+    color: white;
+}
+
+.nav-bar li {
+    border-bottom: 2px solid black;
+    list-style-type: none;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 96%;
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 20px;
+}
+
+img, video, audio, iframe {
+    width: 100%;
+    align-items: center;
+}
+
+.steps {
+    margin-left: 20px;;
+}
+
+.items {
+    margin-left: 20px;
+}
+
+footer{
+    padding: 10px 20px;
+}
